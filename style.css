@@ -1,3 +1,102 @@
+/* Importing font library */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
 body {
     min-height: 100vh;
+    background-color: aliceblue;
+}
+/* Header Styling */
+
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Section 1 Styling */
+
+.section-one{
+    display: flex;
+    margin: 40px;
+}
+
+.adblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.imgplace {
+    width: 300px;
+    height: 200px;
+    background-color: plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 2 Styling */
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-two{
+    display: flex;
+    background-color: aqua;
+    padding: 50px;
+   
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 20px;
+}
+
+.emptybox {
+    width: 200px;
+    height: 200px;
+    background-color:aliceblue;
+    border: 10px;
+    border-radius: 10px;
+    margin: 10px 15px;
+}
+
+/* Section 3 Styling */
+
+
+/* Section 4 Styling */
+
+
+/* Footer */
+footer {
+    position: relative;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    background: rgb(35, 0, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
 }
